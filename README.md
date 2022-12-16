@@ -39,6 +39,9 @@ And then, r2 score values are compared to find methost works the best for this d
 
 #### Parameter optimiation for XGBoost Regressor:
 
-###### nthread (int) – Number of parallel threads used to run xgboost. (Deprecated, please use n_jobs)
-
+###### nthread (int) – Number of parallel threads used to run xgboost. (Deprecated, please use n_jobs).Also, when using hyperthread, xgboost may become slower
+###### max_depth (int) – Maximum tree depth for base learners.  A deeper tree might increase performance and also complexity and chance to overfit.
+###### learning_rate (float) – Boosting learning rate (xgb’s “eta”). 
+###### min_child_weight (int) – Minimum sum of instance weight(hessian) needed in a child.
+###### n_estimators (int) – Number of boosted trees to fit.
 
