@@ -28,6 +28,17 @@ Being able to predict prices in the most accurate way, 4 different regression me
   
   #### Random Forest Regressor : The basic idea behind this is to combine multiple decision trees in determining the final output rather than relying on individual decision trees. 
   [image](https://user-images.githubusercontent.com/83719212/208005056-b29911d1-8b8b-4f4c-aaa5-3b0ab9fa25eb.png)
-
   
+  #### XGBoost Regressor : XGBoost (eXtreme Gradient Boosting) is not only an algorithm. It’s an entire open-source library, designed as an optimized implementation of the Gradient Boosting framework. 
+ 
+  #### SVM Regressor : The basic idea behind SVR is to find the best fit line. In SVR, the best fit line is the hyperplane that has the maximum number of points.
+  ![image](https://user-images.githubusercontent.com/83719212/208005830-86045956-9cad-4d1b-a55e-68631e72e53a.png)
+
+
+And then, r2 score values are compared to find methost works the best for this dataset. Result is that XGBoost Regression works the best for this dataset.
+
+#### Parameter optimiation for XGBoost Regressor:
+
+###### nthread (int) – Number of parallel threads used to run xgboost. (Deprecated, please use n_jobs)
+
 
